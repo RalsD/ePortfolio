@@ -48,7 +48,7 @@ body {
 .topnav a.active {
     color: rgb(204, 111, 165);
     font-style: italic;
-    font-size: 19px;
+    font-size: 24px;
 }
 
 
@@ -71,7 +71,7 @@ section {
     overflow: hidden;
 }
 
-.first {
+.white {
     background-color: #fff;
     margin: 0;
     height: 60%;
@@ -79,7 +79,7 @@ section {
     border-bottom: 2px solid #fff;
 }
 
-.second {
+.pink {
     height: 30%;
     margin: 0;
     background-color: rgb(252, 214, 220);
