@@ -1,0 +1,117 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url(".././Images/back2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Add a green background color to the top navigation */
+
+.topnav {
+    background-color: #fff;
+    overflow: hidden;
+    margin-right: 0%;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    color: #110f0f;
+    text-align: center;
+    padding: 14px 90px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    color: rgb(204, 111, 165);
+    font-size: 19px;
+    font-style: italic;
+}
+
+
+/* Add an active class to highlight the current page */
+
+.topnav a.active {
+    color: rgb(204, 111, 165);
+    font-style: italic;
+    font-size: 19px;
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.topnav .icon {
+    display: none;
+}
+
+h1 {
+    font-style: italic;
+}
+
+section {
+    text-align: center;
+    height: 80%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+}
+
+.first {
+    background-color: #fff;
+    margin: 0;
+    height: 60%;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.second {
+    height: 30%;
+    margin: 0;
+    background-color: rgb(252, 214, 220);
+    border: none;
+    border-top: 2px solid rgb(252, 214, 220);
+}
+
+.first-div {
+    background-color: #fff;
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    border-bottom-left-radius: 25%;
+    float: left;
+}
+
+.second-div {
+    background-color: #fff;
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    border-top-right-radius: 25%;
+    float: left;
+}
+
+img {
+    width: auto;
+    height: 50%;
+    border-radius: 10%;
+    margin: 5%;
+}
+
+footer {
+    background-color: #fff;
+}
