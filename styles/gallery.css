@@ -1,0 +1,96 @@
+tml,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url(".././Images/back2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Add a background color to the top navigation */
+
+.topnav {
+    background-color: #fff;
+    overflow: hidden;
+    margin-right: 0%;
+    border-bottom: 2px solid black;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    color: #110f0f;
+    text-align: center;
+    padding: 14px 35px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    color: rgb(204, 111, 165);
+    font-size: 19px;
+    font-style: italic;
+}
+
+
+/* Add an active class to highlight the current page */
+
+.topnav a.active {
+    color: rgb(204, 111, 165);
+    font-style: italic;
+    font-size: 24px;
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.topnav .icon {
+    display: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#h-title {
+    font-style: italic;
+    font-size: 56px;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+section.transparent {
+    text-align: center;
+    height: 95%;
+    margin: 0;
+    display: block;
+    overflow: hidden;
+}
+
+.white {
+    background-color: #fff;
+    margin: 0;
+    height: 60%;
+}
+
+footer {
+    background-color: #fff;
+}
+
+@media screen and (max-width: 550px) {
+    #h-title {
+        font-size: 16px;
+    }
+}

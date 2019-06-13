@@ -1,0 +1,194 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url(".././Images/aboutP.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Add a background color to the top navigation */
+
+.topnav {
+    background-color: #fff;
+    overflow: hidden;
+    margin-right: 0%;
+    border-bottom: 2px solid black;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    color: #110f0f;
+    text-align: center;
+    padding: 14px 35px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    color: rgb(204, 111, 165);
+    font-size: 19px;
+    font-style: italic;
+}
+
+
+/* Add an active class to highlight the current page */
+
+.topnav a.active {
+    color: rgb(204, 111, 165);
+    font-style: italic;
+    font-size: 24px;
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.topnav .icon {
+    display: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+section {
+    height: 95%;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+}
+
+#one section {
+    text-align: center;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 76px;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+#div-top {
+    width: 100%;
+}
+
+.white {
+    background-color: #fff;
+    margin: 0;
+    height: 100%;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+#aboutOne {
+    background-color: #fff;
+    text-align: center;
+    margin: 0;
+    width: 30%;
+    height: auto;
+    flex: 1;
+    border-right: 1px solid black;
+    padding: 0;
+}
+
+#aboutTwo {
+    background-color: #fff;
+    margin: 0;
+    width: 69%;
+    height: auto;
+    text-align: left;
+    padding-left: 25px;
+    flex: 3;
+    border-right: 1px solid black;
+}
+
+li.inner-list {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+li {
+    list-style-type: none;
+    padding: 20px;
+    background-color: lightgrey;
+    border-radius: 5%;
+    margin-right: 10%;
+}
+
+li#edu1 {
+    list-style-image: url(".././images/PNGs/education.png");
+    list-style-position: inside;
+}
+
+li#edu2 {
+    list-style-image: url(".././images/PNGs/work.png");
+    list-style-position: inside;
+}
+
+li#edu3 {
+    list-style-image: url(".././images/PNGs/hobbies.png");
+    list-style-position: inside;
+}
+
+li#edu4 {
+    list-style-image: url(".././images/PNGs/goals.png");
+    list-style-position: inside;
+}
+
+audio {
+    size: 300px;
+    margin: 0%;
+}
+
+footer {
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    height: 20%;
+    margin: 0;
+}
+
+#proPic {
+    width: auto;
+    height: 30%;
+    border-radius: 10%;
+    margin: 5% 5% 5% 5%;
+}
+
+@media screen and (max-width: 750px) {
+    #aboutOne,
+    #aboutTwo {
+        width: 100%;
+        height: auto;
+        border-right: none;
+        border-bottom: 1px solid black;
+        text-align: center;
+        padding: 0;
+        margin-right: 0;
+    }
+    #one {
+        width: 100%;
+        height: 300px;
+        margin-top: 0%;
+        background-color: #fff;
+    }
+    #two {
+        flex-direction: column;
+    }
+}
