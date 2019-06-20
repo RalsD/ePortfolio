@@ -1,9 +1,14 @@
-var i = 0;
+var i = -1;
+var textWW = ["Az", "sym", "edno", "shantavo", "syshtestvo", "-", "molq", "pomognete", "mi"];
+var textBuild = "";
 
 function timedCount() {
-    i = i + 1;
-    postMessage(i);
-    setTimeout("timedCount()", 500);
+    if (i < 8) {
+        i = i + 1;
+        textBuild += (textWW[i] + " ");
+        postMessage(textBuild);
+    }
+    setTimeout("timedCount()", 250);
 }
 
 timedCount();
